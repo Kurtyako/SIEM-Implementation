@@ -1,4 +1,4 @@
-# SIEM-Implementation 
+# SIEM-Implementation and Fleet Server Project
 
 
 ## Objective
@@ -15,13 +15,13 @@ In this project, I have set up a Security Information and Event Management (SIEM
 - Oracle VM Virtual Box Manager
 - Ubuntu 24 Operating system
 - Windows Server 2022
-- Lucidchart to make a Network Diagram
+- Lucidchart
 - Elasticsearch, Logstash, Kibana
-- 
+  
 
+![topology](https://github.com/user-attachments/assets/f86f499c-57d2-4f9e-96fa-636e4b90a328)
 
-  ![SIEM TOPOLOGY](https://github.com/user-attachments/assets/580d8e1b-2c06-448a-9b61-f96d6db6cc2e)
-
+  
 
 ## Steps
 
@@ -99,6 +99,38 @@ In this project, I have set up a Security Information and Event Management (SIEM
 18. The
 
 ![fleet windows logs](https://github.com/user-attachments/assets/8114ed13-66e7-4dbe-b1ae-018f6c6ed64a)
+
+19. The
+
+![Fleet Sysmon](https://github.com/user-attachments/assets/5fae8aa5-0acb-4456-b4b0-bdbf7a511388)
+
+![Fleet Windows Defender](https://github.com/user-attachments/assets/00c0e927-9ee8-449b-b919-27698660b92c)
+
+20. The
+    
+![FLEET LOGS](https://github.com/user-attachments/assets/c9910228-31de-40a5-b021-9da2db47cded)
+
+
+21. The
+![Fleet sysmon agent connected](https://github.com/user-attachments/assets/3d3fa7cc-46bc-4d7c-a3d1-4b0f0aa5fc9e)
+
+
+22. The
+
+![FLEET WINLOG](https://github.com/user-attachments/assets/9dd49188-c5c7-4181-b842-ea31900496ee)
+
+23. The
+
+![Fleet agent machine](https://github.com/user-attachments/assets/661a142f-c2ff-4292-9edc-961ad846c262)
+
+24. The
+
+![Fleet 2 agents](https://github.com/user-attachments/assets/0f4a6e76-a561-4dc7-b18b-773e8a80fc8d)
+
+
+
+
+
 
 
 
