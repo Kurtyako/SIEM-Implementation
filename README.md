@@ -26,21 +26,21 @@ In this project, I have set up a Security Information and Event Management (SIEM
 ## Steps
 
 
-1. The
+1. First I will download and install the public signing key, along with the apt-transport-https package and save the repository definition to /etc/apt/sources.list.d/elastic-8.x.list. Next, I will run an update command and pair it with installing Elasticsearch.
 
 ![ELK1](https://github.com/user-attachments/assets/d70f997b-da17-4cb6-864a-ac32af26a165)
 
-2. The
+2. Here I am installing Logstash and Kibana
 
 ![ELK2](https://github.com/user-attachments/assets/5e8d5cfe-e2d5-49c5-8d7b-24c8d1b07a71)
 
-3. The
+3. Some modifications have to be done to these yml files, here I will uncomment the server.port: 5601 and server.host "0.0.0.0"
 
 ![ELK3](https://github.com/user-attachments/assets/793c21fe-b7f7-4fc5-8abe-58a191722069)
 
 4. The
  
-![ELK4 elasticsearch](https://github.com/user-attachments/assets/7adb014d-177d-4b50-afa9-800dd418668e)
+![ELK4 elasticsearch 2](https://github.com/user-attachments/assets/58d25cd0-b40b-40b8-ab3c-a5189716452d)
 
 ![ELK4 elasticsearch](https://github.com/user-attachments/assets/4f5326b7-6d6b-4ed0-924f-d93411cea191)
 
