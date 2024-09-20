@@ -3,7 +3,7 @@
 
 ## Objective
 
-In this project, I have set up a Security Information and Event Management (SIEM) system in my home lab. I have configured Elasticsearch, Logstash, and Kibana (ELK). I have also configured it as a fleet server and deployed multiple agents to simulate a real-world security monitoring environment.
+In this project, I have set up a Security Information and Event Management (SIEM) system in my home lab. I have configured Elasticsearch, Logstash, and Kibana (ELK). I have also configured it as a Fleet Server and deployed multiple agents to simulate a real-world security monitoring environment.
 
 
 ### Skills Learned
@@ -17,6 +17,7 @@ In this project, I have set up a Security Information and Event Management (SIEM
 - Windows Server 2022
 - Lucidchart
 - Elasticsearch, Logstash, Kibana
+- Fleet
   
 
 ![topology](https://github.com/user-attachments/assets/f86f499c-57d2-4f9e-96fa-636e4b90a328)
@@ -118,7 +119,7 @@ In this project, I have set up a Security Information and Event Management (SIEM
 ![fleet windows logs](https://github.com/user-attachments/assets/8114ed13-66e7-4dbe-b1ae-018f6c6ed64a)
 
 
-19. Now let's say I want to be more specific with the type of logs I want it to monitor. I am going to add a custom integration for Sysmon and Windows Defender logs into our SIEM.
+19. Now let's say I want to be more specific with the type of logs I want it to monitor. I am going to add a custom integration for Sysmon and Windows Defender logs into the SIEM.
 
 ![Fleet Sysmon](https://github.com/user-attachments/assets/5fae8aa5-0acb-4456-b4b0-bdbf7a511388)
 
@@ -126,7 +127,7 @@ In this project, I have set up a Security Information and Event Management (SIEM
 
 
 20. Here you can see my two custom integrations. For Windows Defender I am going to add a filter for specific event IDs including 1116, 1117, 5001
-
+#
     -ID 1116 The antimalware platform detected malware or other potentially unwanted software
     -ID 1117 The antimalware platform performed an action to protect your system from malware or other potentially unwanted software
     -ID 5001 Microsoft Defender Antivirus real-time protection scanning for malware and other potentially unwanted software was disabled
@@ -134,7 +135,7 @@ In this project, I have set up a Security Information and Event Management (SIEM
 ![FLEET LOGS](https://github.com/user-attachments/assets/c9910228-31de-40a5-b021-9da2db47cded)
 
 
-21. We can now see that my custom integration seems to be working as we are receiving Sysmon logs into our SIEM
+21. We can now see that my custom integration seems to be working as we are receiving Sysmon logs into the SIEM
     
 ![Fleet sysmon agent connected](https://github.com/user-attachments/assets/3d3fa7cc-46bc-4d7c-a3d1-4b0f0aa5fc9e)
 
