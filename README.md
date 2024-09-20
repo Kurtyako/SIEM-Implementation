@@ -7,8 +7,9 @@ In this project, I have set up a Security Information and Event Management (SIEM
 
 
 ### Skills Learned
-
-
+- SIEM Knowledge: Familiarity with SIEM log management and security monitoring
+- Fleet Server Knowledge: Understanding of how to deploy and manage a Fleet Server for endpoint management
+- Integration Skills: Knowledge of integrating various data sources and security tools with the SIEM solution.
 
 ### Tools Used
 
